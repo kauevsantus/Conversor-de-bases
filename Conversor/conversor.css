@@ -1,0 +1,93 @@
+/* CSS DO CABEÇALHO */
+
+
+header{
+    background-color: black;
+    border-bottom: 4px solid #32B9CD;
+    padding: 5px ;
+}
+.menu{
+    width: 80%;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color:#32B9CD;
+    font-size: solid 15px;
+}
+.navbar{
+    color: #32B9CD;
+
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* CSS DO CORPO DO CONVERSOR */
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.convertor{
+    background-color: rgba(170, 242, 255, 0.712);
+    width: 25%;
+    margin: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px aqua;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.div_resultado{
+    background-color: white;
+    border-radius: 5px; 
+    padding: 0px; 
+    color: black; 
+    width: 60%; 
+    height: 40px;
+    font-weight: 500;
+}
+body{
+    background-color: black;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.estilos_placeholder{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 3px black;
+}
+

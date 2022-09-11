@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <h1>Conversor de Bases</h1>
+            <div class="navbar">
+                <ul>
+
+                    <li>Instagram</li>
+                    <li>GitHub</li>
+                    <li>Linkedin</li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- =================================Primeiro conversor ======================================-->
+
+        <div class="convertor">
+            
+            
+            <h2>Decimal</h2>
+
+            <div class="centro">
+                <input class="estilos_placeholder" id="demo1" type="text" placeholder="Digite o valor em decimal"></div>
+
+            <h3>Converter para:</h3>
+            <div class="octal">
+
+                <b>Octal</b>
+
+                <div class="div_resultado" id="demo2"></div>
+
+            </div>
+
+            <div class="hexa">
+
+                <b>Hexadecimal</b>
+
+                <div class="div_resultado" id="demo3"></div>
+
+            </div>
+
+            <div class="binario">
+
+                <b>Binário</b>
+
+                <div class="div_resultado" id="demo4"></div>
+
+            </div>
+
+            <br>
+
+            <button onclick="calcular1()">Converter</button>
+
+        </div>
+
+        <!-- ================================Segundo Conversor===================================-->
+
+        <div class="convertor">
+
+            <h2>Octal</h2>
+
+            <div class="centro">
+                <input class="estilos_placeholder" id="demo5" type="text" placeholder="Digite o valor em octal"></div>
+
+            <h3>Converter para:</h3>
+            <div class="octal">
+
+                <b>Decimal</b>
+
+                <div class="div_resultado" id="demo6"></div>
+
+            </div>
+
+            <div class="hexa">
+
+                <b>Hexadecimal</b>
+
+                <div class="div_resultado" id="demo7"></div>
+
+            </div>
+
+            <div class="binario">
+
+                <b>Binário</b>
+
+                <div class="div_resultado" id="demo8"></div>
+
+            </div>
+
+            <br>
+
+            <button onclick="calcular2()">Converter</button>
+
+        </div>
+
+        <!-- ===================================Terceiro Conversor==========================================-->
+
+        <div class="convertor">
+
+            <h2>Hexadecimal</h2>
+
+            <div class="centro">
+                <input class="estilos_placeholder" id="demo9" type="text" placeholder="Digite o valor em hexadecimal"></div>
+
+            <h3>Converter para:</h3>
+            <div class="octal">
+
+                <b>Octal</b>
+
+                <div class="div_resultado" id="demo10"></div>
+
+            </div>
+
+            <div class="hexa">
+
+                <b>Decimal</b>
+
+                <div class="div_resultado" id="demo11"></div>
+
+            </div>
+
+            <div class="binario">
+
+                <b>Binário</b>
+
+                <div class="div_resultado" id="demo12"></div>
+
+            </div>
+
+            <br>
+
+            <button onclick="calcular3()">Converter</button>
+
+        </div>
+
+        <!--==================================== Quarto Conversor ====================================-->
+
+        <div class="convertor">
+
+            <h2>Binário</h2>
+
+            <div class="centro">
+                <input class="estilos_placeholder" id="demo13" type="text" placeholder="Digite o valor em binário"></div>
+
+            <h3>Converter para:</h3>
+            <div class="octal">
+
+                <b>Octal</b>
+
+                <div class="div_resultado" id="demo14"></div>
+
+            </div>
+
+            <div class="hexa">
+
+                <b>Hexadecimal</b>
+
+                <div class="div_resultado" id="demo15"></div>
+
+            </div>
+
+            <div class="binario">
+
+                <b>Binário</b>
+
+                <div class="div_resultado" id="demo16"></div>
+
+            </div>
+
+            <br>
+
+            <button onclick="calcular4()">Converter</button>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+<script src="Scriptconversor.js">
+</script>
